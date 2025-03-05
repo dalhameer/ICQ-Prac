@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom CSS Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Store</a>
+
+            <img src="pics/ICQ Shop-New-03.png" alt="ICQ Logo" />
+
+            <a href="#">Custom </a>
+            <a href="#">Inquiry</a>
+            <a href="#">Contact Us</a>
+          </nav>
+
+          <div class="logo_and_toggle">
+            <div class="left_logo">
+              <img src="pics/ICQ Shop-New-03.png" alt="ICQ Logo" />
+            </div>
+            <div id="toggle-menu" class="active">
+                <i id="bar" class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          <nav id="tab-nav">
+            
+            <ul id="links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Custom </a></li>
+              <li><a href="#">Inquiry</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+
+          </nav>
+        </div>
+      </header>
+
+      <section class="section1">
+        <div class="container">
+          <div class="heading-img">
+            <img src="pics/Group 744.png" alt="" />
+          </div>
+
+          <div class="section-1-paragraph">
+            <div class="p1"><p>Welcome to Gaming Ovelays!</p></div>
+
+            <div class="p2">
+              <p>
+                The ultimate hub for designs catered to TwitchTV, Mixer,
+                Facebook, and YouTube <br />
+                streamers alike! We offer premium-grade professional designs
+                that are designed to pull you from <br />
+                the crowd and skyrocket you to partnership.
+              </p>
+            </div>
+
+            <div class="p3"><p>Gaming Overlays has you covered!</p></div>
+          </div>
+
+          <div class="section-buttons">
+            <button>Custom Order</button>
+            <button>Premade Designs</button>
+          </div>
+
+          <div class="dragon-pic">
+            <img src="pics/Mask Group 3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="container">
+          <div class="section2-img">
+            <img src="pics/Untitled-1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container">
+          <div class="section3-imgs">
+            <div class="sect1-img">
+              <img src="pics/Featured Designs.png" alt="" />
+            </div>
+            <h2 id="sect3-id">Featured Designs</h2>
+          </div>
+          <div class="featured-anchors">
+            <a href="#">Logo Animation</a>
+            <a href="#">Overlay</a>
+            <a href="#">Emotes</a>
+            <a href="#">Sub Badges</a>
+            <a href="#">V-Tuber</a>
+          </div>
+          <div class="featured-pics">
+            <img src="pics/e04780122543569.60dc005476ef9.png" alt="" />
+            <img src="pics/e04780122543569.60dc005476ef9.png" alt="" />
+            <img src="pics/6fce03109399169.5fd33453e1a21.png" alt="" />
+
+            <img src="pics/383d98123383927.60f9b3f2d0015.png" alt="" />
+            <img src="pics/cb3713121088843.60cc122405bfa.png" alt="" />
+            <img src="pics/b0871a125708077.6157090edfbb7.png" alt="" />
+          </div>
+
+          <div class="featured-btn">
+            <button>View All Layouts</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section4"></section>
+
+      <footer class="main-footer">
+        <div class="container">
+          <h2>
+            How easy is it to order from <br />
+            Gaming Layouts?
+          </h2>
+          <div class="th-lg">
+            <div class="three-logos three-logos-border">
+              <div class="lg-img">
+                <img src="pics/Group 697.png" alt="" />
+              </div>
+              <h3>Add to cart</h3>
+            </div>
+            <div class="three-logos three-logos-border">
+              <div class="lg-img">
+                <img src="pics/Group 698.png" alt="" />
+              </div>
+              <h3>Pay Securely</h3>
+            </div>
+            <div class="three-logos">
+              <div class="lg-img">
+                <img src="pics/Group 700.png" alt="" />
+              </div>
+              <h3>Import designs into OBS</h3>
+            </div>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p>
+            ICQ Shop is the ultimate marketplace for Twitch, Mixer, Facebook and
+            Youtube overlays, panels, emotes, badges, scenes, alerts, stingers,
+            transitions, banners and logos. Our range of styles that also
+            include animated and static work will seamlessly upload and function
+            with any current mainstream broadcasting software, some of which
+            include Streamlabs OBS, OBS, Streamelements, OBS and more. The
+            downloads are made available upon purchase and are sold as seen.
+          </p>
+        </div>
+
+        <div class="footer-paragraph">
+          <p>Copyright © 2024 | ICQ Shop. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            const bar = document.getElementById('bar');
+            const links = document.getElementById('tab-nav');
+            bar.addEventListener('click',() =>{
+                links.classList.toggle('active');
+            });
+        });
+    </script>
+
+  </body>
+</html>
